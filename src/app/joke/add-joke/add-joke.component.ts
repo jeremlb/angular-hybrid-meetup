@@ -6,7 +6,7 @@ import 'rxjs/add/operator/toPromise';
 import { Joke } from '../../core/models/joke.interface';
 import { JokesService } from '../../core/services/jokes.service';
 import { StateService, Transition } from '@uirouter/core';
-// import { UserService } from '../../core/services/ajs-upgraded/user.service';
+import { UserService } from '../../core/services/ajs-upgraded/user.service';
 
 @Component({
   selector: 'add-joke',
@@ -23,7 +23,7 @@ export class AddJokeComponent {
     private transition: Transition,
     private fb: FormBuilder,
     private jokeService: JokesService,
-    // private userService: UserService,
+    private userService: UserService,
   ) {
 
     this.addJokeForm = this.fb.group({
