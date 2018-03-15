@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noStrictGenericChecks": true,
+    "lib" : ["es2015", "dom"],
+    "suppressImplicitAnyIndexErrors": true,
+    "rootDir": "src",
+    "types": [
+      "angular",
+      "angular-ui-router",
+      "jasmine",
+    ]
+  }
+}

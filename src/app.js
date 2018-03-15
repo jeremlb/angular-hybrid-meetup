@@ -1,7 +1,7 @@
 import * as angular from 'angular';
 
 import HomeModule from './app/home/home.module';
-import CoreModule from './app/core/core.module';
+import CoreModule from './app/core/core.module.js';
 
 export default angular.module('App', [
   'ui.router',

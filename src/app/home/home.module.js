@@ -1,11 +1,11 @@
 import * as angular from 'angular';
 
-import homeController from './home.controller';
+import homeController from './home.controller.js';
 import homeTemplate from './home.template.html';
 
-import jokeDirective from './directives/joke/joke.directive';
+import jokeDirective from './directives/joke/joke.directive.js';
 
-export default angular.module('home', ['ui.router', 'ngSanitize'])
+export default angular.module('home', ['ui.router', 'ngSanitize', 'core'])
   .config(config)
   .directive('joke', jokeDirective)
   .name;

@@ -1,0 +1,18 @@
+<div class="add-joke">
+  <form class="form" [formGroup]="addJokeForm" (ngSubmit)="onSubmit(addJokeForm.value)">
+    <input class="form-input-text" type="text" name="title" id="title" [formControl]="this.addJokeForm.controls['title']" placeholder="Titre de la joke">
+
+    <div class="form-container">
+      <h6 class="form-container-header">Categories</h6>
+      <div class="form-radio" *ngFor="let category of categories">
+        <input id="{{ 'radio_' + category }}" class="form-radio-input" type="radio" value="{{ category }}" [formControl]="this.addJokeForm.controls['category']">
+        <label for="{{ 'radio_' + category }}" class="form-radio-label">{{ category }}</label>
+      </div>
+    </div>
+
+    <textarea class="form-textarea" cols="20" rows="6" [formControl]="addJokeForm.controls['joke']" placeholder="Joke&hellip;"></textarea>
+    <textarea class="form-textarea" cols="20" rows="6" [formControl]="addJokeForm.controls['anwser']" placeholder="Joke's anwser&hellip;"></textarea>
+
+    <input class="form-submit" type="submit" value="{{ getLabelName() }}">
+  </form>
+</div>

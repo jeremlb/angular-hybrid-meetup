@@ -1,0 +1,114 @@
+@import '../../../styles/main.less';
+
+.add-joke {
+  height: 100%;
+  width: 75*@unit;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: @darknight;
+}
+
+.form {
+  width: 100%;
+
+  .form-container {
+    margin-bottom: 2*@unit;
+    padding: 2*@unit;
+    border: 1px solid @cream;
+    background-color: @white;
+
+    .form-container-header {
+      margin: 0;
+      margin-bottom: 2*@unit;
+      font-size: 16px;
+      font-weight: 200;
+    }
+  }
+
+  .form-radio {
+    margin-bottom: @unit;
+  
+  }
+  .form-radio .form-radio-input {
+    position: absolute;
+    opacity: 0;
+  }
+  .form-radio .form-radio-input + .form-radio-label:before {
+    content: '';
+    background: #f4f4f4;
+    border-radius: 100%;
+    border: 1px solid #b4b4b4;
+    display: inline-block;
+    width: 2*@unit;
+    height: 2*@unit;
+    position: relative;
+    top: -.2*@unit;
+    margin-right: 2*@unit;
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+    transition: all 250ms ease;
+  }
+  .form-radio .form-radio-input:checked + .form-radio-label:before {
+    background-color: @sky;
+    box-shadow: inset 0 0 0 4px #f4f4f4;
+  }
+  .form-radio .form-radio-input:focus + .form-radio-label:before {
+    outline: none;
+    border-color: @sky;
+  }
+  .form-radio .form-radio-input:disabled + .form-radio-label:before {
+    box-shadow: inset 0 0 0 4px #f4f4f4;
+    border-color: #b4b4b4;
+    background: #b4b4b4;
+  }
+  .form-radio .form-radio-input + .form-radio-label:empty:before {
+    margin-right: 0;
+  }
+
+  .form-input-text, .form-textarea {
+    width: 100%;
+    height: 6*@unit;
+    margin-bottom: 2*@unit;
+    padding-left: 2*@unit;
+    display: flex;
+    font-size: 14px;
+    color: @darknight;
+    outline: 1px solid @cream;
+    background-color: @white;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+  .form-input-text:focus, .form-textarea:focus {
+    border: 0;
+  }
+
+  .form-textarea {
+    width: 100%;
+    height: 15*@unit;
+    padding: 2*@unit; 
+    display: flex;
+  }
+
+  .form-submit {
+    width: 100%;
+    height: 6*@unit;
+    padding: 2*@unit; 
+    border: 0;
+    box-sizing: border-box;
+    background-color: @sky;
+    cursor: pointer;
+    color: @white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.33px;
+    border-radius: 3px;
+  }
+
+  .form-submit:hover {
+    background: @ocean;
+  }
+}

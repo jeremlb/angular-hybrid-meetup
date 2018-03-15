@@ -2,6 +2,84 @@
 # yarn lockfile v1
 
 
+"@angular/common@5.2.7":
+  version "5.2.7"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@angular/common/-/common-5.2.7.tgz?dl=http://registry.npmjs.org/@angular/common/-/common-5.2.7.tgz#11bb9f00afe91af8d772ecdff83c2e179f9a67a0"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/compiler@5.2.7":
+  version "5.2.7"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@angular/compiler/-/compiler-5.2.7.tgz?dl=http://registry.npmjs.org/@angular/compiler/-/compiler-5.2.7.tgz#31dcc7ac18cc23cb115e76c541b982737ff93ec9"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/core@5.2.7":
+  version "5.2.7"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@angular/core/-/core-5.2.7.tgz?dl=http://registry.npmjs.org/@angular/core/-/core-5.2.7.tgz#e5607fc39d90f9fe4fbaaeeeb6cdb9371966bfe3"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/forms@5.2.7":
+  version "5.2.7"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@angular/forms/-/forms-5.2.7.tgz?dl=http://registry.npmjs.org/@angular/forms/-/forms-5.2.7.tgz#a0c41fdb6b8ba2c32653cc3058d5fa47db91fbf8"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/http@5.2.7":
+  version "5.2.7"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@angular/http/-/http-5.2.7.tgz?dl=http://registry.npmjs.org/@angular/http/-/http-5.2.7.tgz#a163f6958f12d2665419123861b0d613c1c82afb"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/platform-browser-dynamic@5.2.7":
+  version "5.2.7"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.2.7.tgz?dl=https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.2.7.tgz#91f903c1f73de2fba1004bc31ed1c3117c7f0406"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/platform-browser@5.2.7":
+  version "5.2.7"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@angular/platform-browser/-/platform-browser-5.2.7.tgz?dl=https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-5.2.7.tgz#cfd86040c25380aabf0322ef47aecc61f23cc532"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/router@5.2.7":
+  version "5.2.7"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@angular/router/-/router-5.2.7.tgz?dl=https://registry.yarnpkg.com/@angular/router/-/router-5.2.7.tgz#691c375fe32f01bea56d169469ad8f254b136af9"
+  dependencies:
+    tslib "^1.7.1"
+
+"@fimbul/bifrost@^0.4.0":
+  version "0.4.0"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@fimbul/bifrost/-/bifrost-0.4.0.tgz?dl=https://registry.yarnpkg.com/@fimbul/bifrost/-/bifrost-0.4.0.tgz#b6d852edc3bed8442967e750fa3ce88e17397e17"
+  dependencies:
+    "@fimbul/ymir" "^0.4.0"
+    get-caller-file "^1.0.2"
+    tslib "^1.8.1"
+
+"@fimbul/ymir@^0.4.0":
+  version "0.4.0"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@fimbul/ymir/-/ymir-0.4.0.tgz?dl=https://registry.yarnpkg.com/@fimbul/ymir/-/ymir-0.4.0.tgz#5d2aeb86f1b257f778d501bbf3b811d2ba3dd3bc"
+  dependencies:
+    inversify "^4.10.0"
+    reflect-metadata "^0.1.12"
+    tslib "^1.8.1"
+
+"@types/angular-ui-router@1.1.40":
+  version "1.1.40"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@types/angular-ui-router/-/angular-ui-router-1.1.40.tgz?dl=https://registry.yarnpkg.com/@types/angular-ui-router/-/angular-ui-router-1.1.40.tgz#d8a10fe4af86a069f8c3302946363f1149e5a6b3"
+  dependencies:
+    "@types/angular" "*"
+
+"@types/angular@*", "@types/angular@1.6.43":
+  version "1.6.43"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@types/angular/-/angular-1.6.43.tgz?dl=https://registry.yarnpkg.com/@types/angular/-/angular-1.6.43.tgz#6235ef416053a86302970717510a936d889cbb9a"
+
+"@types/jasmine@2.8.6":
+  version "2.8.6"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@types/jasmine/-/jasmine-2.8.6.tgz?dl=https://registry.yarnpkg.com/@types/jasmine/-/jasmine-2.8.6.tgz#14445b6a1613cf4e05dd61c3c3256d0e95c0421e"
+
 "@types/node@^6.0.46":
   version "6.0.102"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/@types/node/-/node-6.0.102.tgz?dl=https://registry.yarnpkg.com/@types/node/-/node-6.0.102.tgz#a6cf3b9843286b63eb362a8522bc382d96fe68d1"
@@ -14,9 +92,32 @@
   version "2.53.43"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/@types/selenium-webdriver/-/selenium-webdriver-2.53.43.tgz?dl=https://registry.yarnpkg.com/@types/selenium-webdriver/-/selenium-webdriver-2.53.43.tgz#2de3d718819bc20165754c4a59afb7e9833f6707"
 
+"@uirouter/angular@1.0.1":
+  version "1.0.1"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@uirouter/angular/-/angular-1.0.1.tgz?dl=https://registry.yarnpkg.com/@uirouter/angular/-/angular-1.0.1.tgz#50e4f58832e2d5d310ca35ce1b9eed7aa6035811"
+  dependencies:
+    "@uirouter/core" "5.0.17"
+    "@uirouter/rx" "0.4.5"
+
+"@uirouter/core@5.0.17":
+  version "5.0.17"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@uirouter/core/-/core-5.0.17.tgz?dl=https://registry.yarnpkg.com/@uirouter/core/-/core-5.0.17.tgz#c85d422b1e9a45df885be8b84f9b7f53233a7973"
+
 "@uirouter/core@5.0.3":
   version "5.0.3"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/@uirouter/core/-/core-5.0.3.tgz?dl=https://registry.yarnpkg.com/@uirouter/core/-/core-5.0.3.tgz#e2b5b1e45190e20c67ba4e15c013de5d4e0ccab3"
+
+"@uirouter/rx@0.4.5":
+  version "0.4.5"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@uirouter/rx/-/rx-0.4.5.tgz?dl=https://registry.yarnpkg.com/@uirouter/rx/-/rx-0.4.5.tgz#fb9eeb2cb011d98cc60f043b465551cdd236269b"
+  dependencies:
+    rollup "^0.41.6"
+    rollup-plugin-commonjs "^8.0.2"
+    rollup-plugin-node-resolve "^3.0.0"
+    rollup-plugin-progress "^0.2.1"
+    rollup-plugin-sourcemaps "^0.4.2"
+    rollup-plugin-uglify "^1.0.2"
+    rollup-plugin-visualizer "^0.2.1"
 
 JSONStream@^1.0.3:
   version "1.3.2"
@@ -152,6 +253,12 @@ angular-mocks@1.6.9:
   version "1.6.9"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/angular-mocks/-/angular-mocks-1.6.9.tgz?dl=https://registry.yarnpkg.com/angular-mocks/-/angular-mocks-1.6.9.tgz#4fed8c8293a5080e0919a7ff0dcf0f704864b7ba"
 
+angular-router-loader@0.8.2:
+  version "0.8.2"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/angular-router-loader/-/angular-router-loader-0.8.2.tgz?dl=https://registry.yarnpkg.com/angular-router-loader/-/angular-router-loader-0.8.2.tgz#989bdf33d9ed197fe62a66e0871fa159787ba420"
+  dependencies:
+    loader-utils "^1.0.2"
+
 angular-sanitize@1.6.9:
   version "1.6.9"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/angular-sanitize/-/angular-sanitize-1.6.9.tgz?dl=https://registry.yarnpkg.com/angular-sanitize/-/angular-sanitize-1.6.9.tgz#1adba33f6f513e5f93e3aca8071bef53666739ea"
@@ -161,6 +268,12 @@ angular-ui-router@1.0.3:
   resolved "https://artifactory.csq.fr:443/api/npm/npm/angular-ui-router/-/angular-ui-router-1.0.3.tgz?dl=https://registry.yarnpkg.com/angular-ui-router/-/angular-ui-router-1.0.3.tgz#bf2494caae95c37cf01af3761d89747cfed2db45"
   dependencies:
     "@uirouter/core" "5.0.3"
+
+angular2-template-loader@0.6.2:
+  version "0.6.2"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/angular2-template-loader/-/angular2-template-loader-0.6.2.tgz?dl=https://registry.yarnpkg.com/angular2-template-loader/-/angular2-template-loader-0.6.2.tgz#c0d44e90fff0fac95e8b23f043acda7fd1c51d7c"
+  dependencies:
+    loader-utils "^0.2.15"
 
 angular@1.6.9:
   version "1.6.9"
@@ -427,6 +540,18 @@ autoprefixer@^6.3.1:
     num2fraction "^1.2.2"
     postcss "^5.2.16"
     postcss-value-parser "^3.2.3"
+
+awesome-typescript-loader@3.5.0:
+  version "3.5.0"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/awesome-typescript-loader/-/awesome-typescript-loader-3.5.0.tgz?dl=https://registry.yarnpkg.com/awesome-typescript-loader/-/awesome-typescript-loader-3.5.0.tgz#4d4d10cba7a04ed433dfa0334250846fb11a1a5a"
+  dependencies:
+    chalk "^2.3.1"
+    enhanced-resolve "3.3.0"
+    loader-utils "^1.1.0"
+    lodash "^4.17.4"
+    micromatch "^3.0.3"
+    mkdirp "^0.5.1"
+    source-map-support "^0.5.3"
 
 aws-sign2@~0.6.0:
   version "0.6.0"
@@ -1223,6 +1348,10 @@ builtin-modules@^1.0.0, builtin-modules@^1.1.1:
   version "1.1.1"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/builtin-modules/-/builtin-modules-1.1.1.tgz?dl=https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
 
+builtin-modules@^2.0.0:
+  version "2.0.0"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/builtin-modules/-/builtin-modules-2.0.0.tgz?dl=https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-2.0.0.tgz#60b7ef5ae6546bd7deefa74b08b62a43a232648e"
+
 builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz?dl=https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
@@ -1349,7 +1478,7 @@ chalk@^1.1.1, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.1:
+chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.3.1:
   version "2.3.2"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/chalk/-/chalk-2.3.2.tgz?dl=https://registry.yarnpkg.com/chalk/-/chalk-2.3.2.tgz#250dc96b07491bfd601e648d66ddf5f60c7a5c65"
   dependencies:
@@ -1563,7 +1692,7 @@ combined-stream@1.0.6, combined-stream@^1.0.5, combined-stream@~1.0.5:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@2.15.x, commander@^2.11.0, commander@^2.9.0, commander@~2.15.0:
+commander@2.15.x, commander@^2.11.0, commander@^2.12.1, commander@^2.9.0, commander@~2.15.0:
   version "2.15.0"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/commander/-/commander-2.15.0.tgz?dl=https://registry.yarnpkg.com/commander/-/commander-2.15.0.tgz#ad2a23a1c3b036e392469b8012cec6b33b4c1322"
 
@@ -1713,7 +1842,7 @@ copy-webpack-plugin@4.5.0:
     p-limit "^1.0.0"
     serialize-javascript "^1.4.0"
 
-core-js@^2.2.0, core-js@^2.4.0, core-js@^2.5.0:
+core-js@2.5.3, core-js@^2.2.0, core-js@^2.4.0, core-js@^2.5.0:
   version "2.5.3"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/core-js/-/core-js-2.5.3.tgz?dl=https://registry.yarnpkg.com/core-js/-/core-js-2.5.3.tgz#8acc38345824f16d8365b7c9b4259168e8ed603e"
 
@@ -2093,6 +2222,10 @@ di@^0.0.1:
   version "0.0.1"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/di/-/di-0.0.1.tgz?dl=https://registry.yarnpkg.com/di/-/di-0.0.1.tgz#806649326ceaa7caa3306d75d985ea2748ba913c"
 
+diff@^3.2.0:
+  version "3.5.0"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/diff/-/diff-3.5.0.tgz?dl=https://registry.yarnpkg.com/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
+
 diffie-hellman@^5.0.0:
   version "5.0.2"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/diffie-hellman/-/diffie-hellman-5.0.2.tgz?dl=https://registry.yarnpkg.com/diffie-hellman/-/diffie-hellman-5.0.2.tgz#b5835739270cfe26acf632099fded2a07f209e5e"
@@ -2124,6 +2257,13 @@ dns-txt@^2.0.2:
   resolved "https://artifactory.csq.fr:443/api/npm/npm/dns-txt/-/dns-txt-2.0.2.tgz?dl=https://registry.yarnpkg.com/dns-txt/-/dns-txt-2.0.2.tgz#b91d806f5d27188e4ab3e7d107d881a1cc4642b6"
   dependencies:
     buffer-indexof "^1.0.0"
+
+doctrine@0.7.2, doctrine@^0.7.2:
+  version "0.7.2"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/doctrine/-/doctrine-0.7.2.tgz?dl=https://registry.yarnpkg.com/doctrine/-/doctrine-0.7.2.tgz#7cb860359ba3be90e040b26b729ce4bfa654c523"
+  dependencies:
+    esutils "^1.1.6"
+    isarray "0.0.1"
 
 doctrine@1.5.0:
   version "1.5.0"
@@ -2292,6 +2432,15 @@ engine.io@~3.1.0:
     ws "~3.3.1"
   optionalDependencies:
     uws "~9.14.0"
+
+enhanced-resolve@3.3.0:
+  version "3.3.0"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/enhanced-resolve/-/enhanced-resolve-3.3.0.tgz?dl=https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-3.3.0.tgz#950964ecc7f0332a42321b673b38dc8ff15535b3"
+  dependencies:
+    graceful-fs "^4.1.2"
+    memory-fs "^0.4.0"
+    object-assign "^4.0.1"
+    tapable "^0.2.5"
 
 enhanced-resolve@^3.4.0:
   version "3.4.1"
@@ -2572,6 +2721,22 @@ esrecurse@^4.1.0:
 estraverse@^4.0.0, estraverse@^4.1.0, estraverse@^4.1.1, estraverse@^4.2.0:
   version "4.2.0"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/estraverse/-/estraverse-4.2.0.tgz?dl=https://registry.yarnpkg.com/estraverse/-/estraverse-4.2.0.tgz#0dee3fed31fcd469618ce7342099fc1afa0bdb13"
+
+estree-walker@^0.2.1:
+  version "0.2.1"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/estree-walker/-/estree-walker-0.2.1.tgz?dl=https://registry.yarnpkg.com/estree-walker/-/estree-walker-0.2.1.tgz#bdafe8095383d8414d5dc2ecf4c9173b6db9412e"
+
+estree-walker@^0.3.0:
+  version "0.3.1"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/estree-walker/-/estree-walker-0.3.1.tgz?dl=https://registry.yarnpkg.com/estree-walker/-/estree-walker-0.3.1.tgz#e6b1a51cf7292524e7237c312e5fe6660c1ce1aa"
+
+estree-walker@^0.5.0:
+  version "0.5.1"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/estree-walker/-/estree-walker-0.5.1.tgz?dl=https://registry.yarnpkg.com/estree-walker/-/estree-walker-0.5.1.tgz#64fc375053abc6f57d73e9bd2f004644ad3c5854"
+
+esutils@^1.1.6:
+  version "1.1.6"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/esutils/-/esutils-1.1.6.tgz?dl=https://registry.yarnpkg.com/esutils/-/esutils-1.1.6.tgz#c01ccaa9ae4b897c6d0c3e210ae52f3c7a844375"
 
 esutils@^2.0.2:
   version "2.0.2"
@@ -3050,7 +3215,7 @@ generate-object-property@^1.1.0:
   dependencies:
     is-property "^1.0.0"
 
-get-caller-file@^1.0.1:
+get-caller-file@^1.0.1, get-caller-file@^1.0.2:
   version "1.0.2"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/get-caller-file/-/get-caller-file-1.0.2.tgz?dl=https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-1.0.2.tgz#f702e63127e7e231c160a80c1554acb70d5047e5"
 
@@ -3629,6 +3794,10 @@ invariant@^2.2.2:
   dependencies:
     loose-envify "^1.0.0"
 
+inversify@^4.10.0:
+  version "4.11.1"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/inversify/-/inversify-4.11.1.tgz?dl=https://registry.yarnpkg.com/inversify/-/inversify-4.11.1.tgz#9a10635d1fd347da11da96475b3608babd5945a6"
+
 invert-kv@^1.0.0:
   version "1.0.0"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/invert-kv/-/invert-kv-1.0.0.tgz?dl=https://registry.yarnpkg.com/invert-kv/-/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
@@ -3778,6 +3947,10 @@ is-glob@^4.0.0:
   resolved "https://artifactory.csq.fr:443/api/npm/npm/is-glob/-/is-glob-4.0.0.tgz?dl=https://registry.yarnpkg.com/is-glob/-/is-glob-4.0.0.tgz#9521c76845cc2610a85203ddf080a958c2ffabc0"
   dependencies:
     is-extglob "^2.1.1"
+
+is-module@^1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/is-module/-/is-module-1.0.0.tgz?dl=https://registry.yarnpkg.com/is-module/-/is-module-1.0.0.tgz#3258fb69f78c14d5b815d664336b4cffb6441591"
 
 is-my-ip-valid@^1.0.0:
   version "1.0.0"
@@ -3969,7 +4142,7 @@ js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/js-tokens/-/js-tokens-3.0.2.tgz?dl=https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
-js-yaml@^3.9.1:
+js-yaml@^3.7.0, js-yaml@^3.9.1:
   version "3.11.0"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/js-yaml/-/js-yaml-3.11.0.tgz?dl=https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.11.0.tgz#597c1a8bd57152f26d622ce4117851a51f5ebaef"
   dependencies:
@@ -4279,7 +4452,7 @@ loader-runner@^2.3.0:
   version "2.3.0"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/loader-runner/-/loader-runner-2.3.0.tgz?dl=https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.3.0.tgz#f482aea82d543e07921700d5a46ef26fdac6b8a2"
 
-loader-utils@^0.2.16:
+loader-utils@^0.2.15, loader-utils@^0.2.16:
   version "0.2.17"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/loader-utils/-/loader-utils-0.2.17.tgz?dl=https://registry.yarnpkg.com/loader-utils/-/loader-utils-0.2.17.tgz#f86e6374d43205a6e6c60e9196f17c0299bfb348"
   dependencies:
@@ -4398,6 +4571,12 @@ macaddress@^0.2.8:
   version "0.2.8"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/macaddress/-/macaddress-0.2.8.tgz?dl=https://registry.yarnpkg.com/macaddress/-/macaddress-0.2.8.tgz#5904dc537c39ec6dbefeae902327135fa8511f12"
 
+magic-string@^0.22.4:
+  version "0.22.5"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/magic-string/-/magic-string-0.22.5.tgz?dl=https://registry.yarnpkg.com/magic-string/-/magic-string-0.22.5.tgz#8e9cf5afddf44385c1da5bc2a6a0dbd10b03657e"
+  dependencies:
+    vlq "^0.2.2"
+
 mailcomposer@4.0.1:
   version "4.0.1"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/mailcomposer/-/mailcomposer-4.0.1.tgz?dl=https://registry.yarnpkg.com/mailcomposer/-/mailcomposer-4.0.1.tgz#0e1c44b2a07cf740ee17dc149ba009f19cadfeb4"
@@ -4508,7 +4687,7 @@ micromatch@^2.1.5, micromatch@^2.3.11:
     parse-glob "^3.0.4"
     regex-cache "^0.4.2"
 
-micromatch@^3.1.4:
+micromatch@^3.0.3, micromatch@^3.1.4:
   version "3.1.9"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/micromatch/-/micromatch-3.1.9.tgz?dl=https://registry.yarnpkg.com/micromatch/-/micromatch-3.1.9.tgz#15dc93175ae39e52e93087847096effc73efcf89"
   dependencies:
@@ -5895,6 +6074,10 @@ reduce-function-call@^1.0.1:
   dependencies:
     balanced-match "^0.4.2"
 
+reflect-metadata@0.1.12, reflect-metadata@^0.1.12:
+  version "0.1.12"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/reflect-metadata/-/reflect-metadata-0.1.12.tgz?dl=https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.12.tgz#311bf0c6b63cd782f228a81abe146a2bfa9c56f2"
+
 regenerate@^1.2.1:
   version "1.3.3"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/regenerate/-/regenerate-1.3.3.tgz?dl=https://registry.yarnpkg.com/regenerate/-/regenerate-1.3.3.tgz#0c336d3980553d755c39b586ae3b20aa49c82b7f"
@@ -6141,7 +6324,7 @@ resolve@1.1.7:
   version "1.1.7"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/resolve/-/resolve-1.1.7.tgz?dl=https://registry.yarnpkg.com/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
 
-resolve@^1.1.3, resolve@^1.1.4, resolve@^1.5.0:
+resolve@^1.1.3, resolve@^1.1.4, resolve@^1.1.6, resolve@^1.3.2, resolve@^1.4.0, resolve@^1.5.0:
   version "1.5.0"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/resolve/-/resolve-1.5.0.tgz?dl=https://registry.yarnpkg.com/resolve/-/resolve-1.5.0.tgz#1f09acce796c9a762579f31b2c1cc4c3cddf9f36"
   dependencies:
@@ -6177,6 +6360,68 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^2.0.0"
     inherits "^2.0.1"
 
+rollup-plugin-commonjs@^8.0.2:
+  version "8.4.1"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/rollup-plugin-commonjs/-/rollup-plugin-commonjs-8.4.1.tgz?dl=https://registry.yarnpkg.com/rollup-plugin-commonjs/-/rollup-plugin-commonjs-8.4.1.tgz#5c9cea2b2c3de322f5fbccd147e07ed5e502d7a0"
+  dependencies:
+    acorn "^5.2.1"
+    estree-walker "^0.5.0"
+    magic-string "^0.22.4"
+    resolve "^1.4.0"
+    rollup-pluginutils "^2.0.1"
+
+rollup-plugin-node-resolve@^3.0.0:
+  version "3.2.0"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-3.2.0.tgz?dl=https://registry.yarnpkg.com/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-3.2.0.tgz#31534952f3ab21f9473c1d092be7ed43937ea4d4"
+  dependencies:
+    builtin-modules "^2.0.0"
+    is-module "^1.0.0"
+    resolve "^1.1.6"
+
+rollup-plugin-progress@^0.2.1:
+  version "0.2.1"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/rollup-plugin-progress/-/rollup-plugin-progress-0.2.1.tgz?dl=https://registry.yarnpkg.com/rollup-plugin-progress/-/rollup-plugin-progress-0.2.1.tgz#e3c932a0316374daaf37f471c86d4adfb9caee57"
+  dependencies:
+    chalk "^1.1.3"
+    rollup-pluginutils "^1.5.1"
+
+rollup-plugin-sourcemaps@^0.4.2:
+  version "0.4.2"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/rollup-plugin-sourcemaps/-/rollup-plugin-sourcemaps-0.4.2.tgz?dl=https://registry.yarnpkg.com/rollup-plugin-sourcemaps/-/rollup-plugin-sourcemaps-0.4.2.tgz#62125aa94087aadf7b83ef4dfaf629b473135e87"
+  dependencies:
+    rollup-pluginutils "^2.0.1"
+    source-map-resolve "^0.5.0"
+
+rollup-plugin-uglify@^1.0.2:
+  version "1.0.2"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/rollup-plugin-uglify/-/rollup-plugin-uglify-1.0.2.tgz?dl=https://registry.yarnpkg.com/rollup-plugin-uglify/-/rollup-plugin-uglify-1.0.2.tgz#d4aa6f5df13522eae1ba17780c7c4c7096038359"
+  dependencies:
+    uglify-js "^2.6.1"
+
+rollup-plugin-visualizer@^0.2.1:
+  version "0.2.1"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/rollup-plugin-visualizer/-/rollup-plugin-visualizer-0.2.1.tgz?dl=https://registry.yarnpkg.com/rollup-plugin-visualizer/-/rollup-plugin-visualizer-0.2.1.tgz#f8ce144a23f3f41d6bc930066119b47f1415d4ab"
+
+rollup-pluginutils@^1.5.1:
+  version "1.5.2"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/rollup-pluginutils/-/rollup-pluginutils-1.5.2.tgz?dl=https://registry.yarnpkg.com/rollup-pluginutils/-/rollup-pluginutils-1.5.2.tgz#1e156e778f94b7255bfa1b3d0178be8f5c552408"
+  dependencies:
+    estree-walker "^0.2.1"
+    minimatch "^3.0.2"
+
+rollup-pluginutils@^2.0.1:
+  version "2.0.1"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/rollup-pluginutils/-/rollup-pluginutils-2.0.1.tgz?dl=https://registry.yarnpkg.com/rollup-pluginutils/-/rollup-pluginutils-2.0.1.tgz#7ec95b3573f6543a46a6461bd9a7c544525d0fc0"
+  dependencies:
+    estree-walker "^0.3.0"
+    micromatch "^2.3.11"
+
+rollup@^0.41.6:
+  version "0.41.6"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/rollup/-/rollup-0.41.6.tgz?dl=https://registry.yarnpkg.com/rollup/-/rollup-0.41.6.tgz#e0d05497877a398c104d816d2733a718a7a94e2a"
+  dependencies:
+    source-map-support "^0.4.0"
+
 run-async@^2.2.0:
   version "2.3.0"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/run-async/-/run-async-2.3.0.tgz?dl=https://registry.yarnpkg.com/run-async/-/run-async-2.3.0.tgz#0371ab4ae0bdd720d4166d7dfda64ff7a445a6c0"
@@ -6198,6 +6443,12 @@ rx-lite-aggregates@^4.0.8:
 rx-lite@*, rx-lite@^4.0.8:
   version "4.0.8"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/rx-lite/-/rx-lite-4.0.8.tgz?dl=https://registry.yarnpkg.com/rx-lite/-/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
+
+rxjs@5.5.6:
+  version "5.5.6"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/rxjs/-/rxjs-5.5.6.tgz?dl=https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.6.tgz#e31fb96d6fd2ff1fd84bcea8ae9c02d007179c02"
+  dependencies:
+    symbol-observable "1.0.1"
 
 safe-buffer@5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
@@ -6558,11 +6809,17 @@ source-map-resolve@^0.5.0:
     source-map-url "^0.4.0"
     urix "^0.1.0"
 
-source-map-support@^0.4.15, source-map-support@~0.4.0:
+source-map-support@^0.4.0, source-map-support@^0.4.15, source-map-support@~0.4.0:
   version "0.4.18"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/source-map-support/-/source-map-support-0.4.18.tgz?dl=https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.18.tgz#0286a6de8be42641338594e97ccea75f0a2c585f"
   dependencies:
     source-map "^0.5.6"
+
+source-map-support@^0.5.3:
+  version "0.5.4"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/source-map-support/-/source-map-support-0.5.4.tgz?dl=https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.4.tgz#54456efa89caa9270af7cd624cc2f123e51fbae8"
+  dependencies:
+    source-map "^0.6.0"
 
 source-map-url@^0.4.0:
   version "0.4.0"
@@ -6578,7 +6835,7 @@ source-map@^0.2.0:
   dependencies:
     amdefine ">=0.0.4"
 
-source-map@^0.6.1, source-map@~0.6.1:
+source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.1:
   version "0.6.1"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/source-map/-/source-map-0.6.1.tgz?dl=https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
@@ -6860,6 +7117,10 @@ svgo@^0.7.0:
     sax "~1.2.1"
     whet.extend "~0.9.9"
 
+symbol-observable@1.0.1:
+  version "1.0.1"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/symbol-observable/-/symbol-observable-1.0.1.tgz?dl=https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.1.tgz#8340fc4702c3122df5d22288f88283f513d3fdd4"
+
 syntax-error@^1.1.1:
   version "1.4.0"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/syntax-error/-/syntax-error-1.4.0.tgz?dl=https://registry.yarnpkg.com/syntax-error/-/syntax-error-1.4.0.tgz#2d9d4ff5c064acb711594a3e3b95054ad51d907c"
@@ -6877,7 +7138,7 @@ table@4.0.2:
     slice-ansi "1.0.0"
     string-width "^2.1.1"
 
-tapable@^0.2.7:
+tapable@^0.2.5, tapable@^0.2.7:
   version "0.2.8"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/tapable/-/tapable-0.2.8.tgz?dl=https://registry.yarnpkg.com/tapable/-/tapable-0.2.8.tgz#99372a5c999bf2df160afc0d74bed4f47948cd22"
 
@@ -7008,6 +7269,12 @@ to-regex@^3.0.1:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
+to-string-loader@1.1.5:
+  version "1.1.5"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/to-string-loader/-/to-string-loader-1.1.5.tgz?dl=https://registry.yarnpkg.com/to-string-loader/-/to-string-loader-1.1.5.tgz#7b7aa17891b7bb4947a7a11bfb03b5fde9c6e695"
+  dependencies:
+    loader-utils "^0.2.16"
+
 toposort@^1.0.0:
   version "1.0.6"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/toposort/-/toposort-1.0.6.tgz?dl=https://registry.yarnpkg.com/toposort/-/toposort-1.0.6.tgz#c31748e55d210effc00fdcdc7d6e68d7d7bb9cec"
@@ -7026,9 +7293,84 @@ trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/trim-right/-/trim-right-1.0.1.tgz?dl=https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
 
+tslib@1.9.0, tslib@^1.0.0, tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1:
+  version "1.9.0"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/tslib/-/tslib-1.9.0.tgz?dl=https://registry.yarnpkg.com/tslib/-/tslib-1.9.0.tgz#e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8"
+
+tslint-config-airbnb@5.7.0:
+  version "5.7.0"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/tslint-config-airbnb/-/tslint-config-airbnb-5.7.0.tgz?dl=https://registry.yarnpkg.com/tslint-config-airbnb/-/tslint-config-airbnb-5.7.0.tgz#09ff04b0dd599765f44b4425004458d08fcb2c40"
+  dependencies:
+    tslint-consistent-codestyle "^1.10.0"
+    tslint-eslint-rules "^4.1.1"
+    tslint-microsoft-contrib "~5.0.1"
+
+tslint-consistent-codestyle@^1.10.0:
+  version "1.12.0"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/tslint-consistent-codestyle/-/tslint-consistent-codestyle-1.12.0.tgz?dl=https://registry.yarnpkg.com/tslint-consistent-codestyle/-/tslint-consistent-codestyle-1.12.0.tgz#0cc65f23a24a2956dc32e81072e25733d0fa73fb"
+  dependencies:
+    "@fimbul/bifrost" "^0.4.0"
+    tslib "^1.7.1"
+    tsutils "^2.22.2"
+
+tslint-eslint-rules@5.1.0:
+  version "5.1.0"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/tslint-eslint-rules/-/tslint-eslint-rules-5.1.0.tgz?dl=https://registry.yarnpkg.com/tslint-eslint-rules/-/tslint-eslint-rules-5.1.0.tgz#3232b318da55dbb5a83e3f5d657c1ddbb27b9ff2"
+  dependencies:
+    doctrine "0.7.2"
+    tslib "1.9.0"
+    tsutils "2.8.0"
+
+tslint-eslint-rules@^4.1.1:
+  version "4.1.1"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/tslint-eslint-rules/-/tslint-eslint-rules-4.1.1.tgz?dl=https://registry.yarnpkg.com/tslint-eslint-rules/-/tslint-eslint-rules-4.1.1.tgz#7c30e7882f26bc276bff91d2384975c69daf88ba"
+  dependencies:
+    doctrine "^0.7.2"
+    tslib "^1.0.0"
+    tsutils "^1.4.0"
+
+tslint-microsoft-contrib@~5.0.1:
+  version "5.0.3"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/tslint-microsoft-contrib/-/tslint-microsoft-contrib-5.0.3.tgz?dl=https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-5.0.3.tgz#6fc3e238179cd72045c2b422e4d655f4183a8d5c"
+  dependencies:
+    tsutils "^2.12.1"
+
+tslint@5.9.1:
+  version "5.9.1"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/tslint/-/tslint-5.9.1.tgz?dl=https://registry.yarnpkg.com/tslint/-/tslint-5.9.1.tgz#1255f87a3ff57eb0b0e1f0e610a8b4748046c9ae"
+  dependencies:
+    babel-code-frame "^6.22.0"
+    builtin-modules "^1.1.1"
+    chalk "^2.3.0"
+    commander "^2.12.1"
+    diff "^3.2.0"
+    glob "^7.1.1"
+    js-yaml "^3.7.0"
+    minimatch "^3.0.4"
+    resolve "^1.3.2"
+    semver "^5.3.0"
+    tslib "^1.8.0"
+    tsutils "^2.12.1"
+
 tsscmp@~1.0.0:
   version "1.0.5"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/tsscmp/-/tsscmp-1.0.5.tgz?dl=https://registry.yarnpkg.com/tsscmp/-/tsscmp-1.0.5.tgz#7dc4a33af71581ab4337da91d85ca5427ebd9a97"
+
+tsutils@2.8.0:
+  version "2.8.0"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/tsutils/-/tsutils-2.8.0.tgz?dl=https://registry.yarnpkg.com/tsutils/-/tsutils-2.8.0.tgz#0160173729b3bf138628dd14a1537e00851d814a"
+  dependencies:
+    tslib "^1.7.1"
+
+tsutils@^1.4.0:
+  version "1.9.1"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/tsutils/-/tsutils-1.9.1.tgz?dl=https://registry.yarnpkg.com/tsutils/-/tsutils-1.9.1.tgz#b9f9ab44e55af9681831d5f28d0aeeaf5c750cb0"
+
+tsutils@^2.12.1, tsutils@^2.22.2:
+  version "2.22.2"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/tsutils/-/tsutils-2.22.2.tgz?dl=https://registry.yarnpkg.com/tsutils/-/tsutils-2.22.2.tgz#0b9f3d87aa3eb95bd32d26ce2b88aa329a657951"
+  dependencies:
+    tslib "^1.8.1"
 
 tty-browserify@0.0.0:
   version "0.0.0"
@@ -7069,6 +7411,10 @@ typedarray@^0.0.6, typedarray@~0.0.5:
   version "0.0.6"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/typedarray/-/typedarray-0.0.6.tgz?dl=https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
+typescript@2.7.2:
+  version "2.7.2"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/typescript/-/typescript-2.7.2.tgz?dl=https://registry.yarnpkg.com/typescript/-/typescript-2.7.2.tgz#2d615a1ef4aee4f574425cdff7026edf81919836"
+
 uglify-js@3.3.x:
   version "3.3.15"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/uglify-js/-/uglify-js-3.3.15.tgz?dl=https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.3.15.tgz#5b8783b6856110d3a03a9b81e07324a3b925f2dd"
@@ -7076,7 +7422,7 @@ uglify-js@3.3.x:
     commander "~2.15.0"
     source-map "~0.6.1"
 
-uglify-js@^2.8.29:
+uglify-js@^2.6.1, uglify-js@^2.8.29:
   version "2.8.29"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/uglify-js/-/uglify-js-2.8.29.tgz?dl=https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.29.tgz#29c5733148057bb4e1f75df35b7a9cb72e6a59dd"
   dependencies:
@@ -7287,6 +7633,10 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
+
+vlq@^0.2.2:
+  version "0.2.3"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/vlq/-/vlq-0.2.3.tgz?dl=https://registry.yarnpkg.com/vlq/-/vlq-0.2.3.tgz#8f3e4328cf63b1540c0d67e1b2778386f8975b26"
 
 vm-browserify@0.0.4, vm-browserify@~0.0.1:
   version "0.0.4"
@@ -7636,3 +7986,7 @@ zip-stream@^1.1.0:
     compress-commons "^1.2.0"
     lodash "^4.8.0"
     readable-stream "^2.0.0"
+
+zone.js@0.8.20:
+  version "0.8.20"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/zone.js/-/zone.js-0.8.20.tgz?dl=https://registry.yarnpkg.com/zone.js/-/zone.js-0.8.20.tgz#a218c48db09464b19ff6fc8f0d4bb5b1046e185d"

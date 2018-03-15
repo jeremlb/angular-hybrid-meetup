@@ -20,7 +20,7 @@ module.exports = {
   },
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
-      name: ['main', 'vendor']
+      name: ['main', 'vendors']
     }),
     new HtmlWebpackPlugin({
       filename: helpers.root('./dist/index.html'),
@@ -35,6 +35,23 @@ module.exports = {
   ],
   module: {
     rules: [
+      {
+        test: /\.ts$/,
+        use: [
+          {
+            loader: 'awesome-typescript-loader',
+            options: {
+              configFileName: helpers.root('./tsconfig.json'),
+              transpileOnly: true
+            }
+          },
+          { loader: 'angular2-template-loader' },
+          { loader: 'angular-router-loader' }
+        ],
+        exclude: [
+          /node_modules/
+        ]
+      },
       {
         test: /\.html$/,
         exclude: /node_modules/,
@@ -75,9 +92,34 @@ module.exports = {
           { loader: 'less-loader' }
         ])
       },
+      {
+        test: /\.less$/,
+        issuer: /main\.ts$/,
+        use: extractLESS.extract([
+          { loader: 'css-loader' },
+          { loader: 'less-loader' }
+        ])
+      },
+      {
+        test: /\.less$/,
+        issuer: /\.module\.ts$/,
+        use: extractLESS.extract([
+          { loader: 'css-loader' },
+          { loader: 'less-loader' }
+        ])
+      },
+      {
+        test: /\.less$/,
+        issuer: /\.component\.ts$/,
+        use: [
+          { loader: 'to-string-loader' },
+          { loader: 'css-loader' },
+          { loader: 'less-loader' }
+        ]
+      },
     ],
   },
   resolve: {
-    extensions: ['.js', '.json', '.html', '.less'],
+    extensions: ['.ts', '.js', '.json', '.html', '.less'],
   },
 };
