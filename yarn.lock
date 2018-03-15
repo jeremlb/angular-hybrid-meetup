@@ -98,12 +98,26 @@
   version "2.53.43"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/@types/selenium-webdriver/-/selenium-webdriver-2.53.43.tgz?dl=https://registry.yarnpkg.com/@types/selenium-webdriver/-/selenium-webdriver-2.53.43.tgz#2de3d718819bc20165754c4a59afb7e9833f6707"
 
+"@uirouter/angular-hybrid@4.0.0":
+  version "4.0.0"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@uirouter/angular-hybrid/-/angular-hybrid-4.0.0.tgz?dl=https://registry.yarnpkg.com/@uirouter/angular-hybrid/-/angular-hybrid-4.0.0.tgz#fbdb443a125f78b9efd11bbf4ece735f43ed3eec"
+  dependencies:
+    "@uirouter/angular" "1.0.1"
+    "@uirouter/angularjs" "1.0.15"
+    "@uirouter/core" "5.0.17"
+
 "@uirouter/angular@1.0.1":
   version "1.0.1"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/@uirouter/angular/-/angular-1.0.1.tgz?dl=https://registry.yarnpkg.com/@uirouter/angular/-/angular-1.0.1.tgz#50e4f58832e2d5d310ca35ce1b9eed7aa6035811"
   dependencies:
     "@uirouter/core" "5.0.17"
     "@uirouter/rx" "0.4.5"
+
+"@uirouter/angularjs@1.0.15":
+  version "1.0.15"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@uirouter/angularjs/-/angularjs-1.0.15.tgz?dl=https://registry.yarnpkg.com/@uirouter/angularjs/-/angularjs-1.0.15.tgz#06d7a350576301f8897f5132b37e69756872139e"
+  dependencies:
+    "@uirouter/core" "5.0.17"
 
 "@uirouter/core@5.0.17":
   version "5.0.17"

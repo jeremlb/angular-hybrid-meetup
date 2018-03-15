@@ -28,6 +28,7 @@
     "@angular/router": "5.2.7",
     "@angular/upgrade": "5.2.7",
     "@uirouter/angular": "1.0.1",
+    "@uirouter/angular-hybrid": "4.0.0",
     "angular": "1.6.9",
     "angular-sanitize": "1.6.9",
     "angular-ui-router": "1.0.3",

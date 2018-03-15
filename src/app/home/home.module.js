@@ -5,7 +5,7 @@ import homeTemplate from './home.template.html';
 
 import jokeDirective from './directives/joke/joke.directive.js';
 
-export default angular.module('home', ['ui.router', 'ngSanitize', 'core'])
+export default angular.module('home', ['ui.router', 'ui.router.upgrade', 'ngSanitize'])
   .config(config)
   .directive('joke', jokeDirective)
   .name;

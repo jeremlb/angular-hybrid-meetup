@@ -5,6 +5,7 @@ import CoreModule from './app/core/core.module.js';
 
 export default angular.module('App', [
   'ui.router',
+  'ui.router.upgrade',
   HomeModule,
   CoreModule,
 ])
