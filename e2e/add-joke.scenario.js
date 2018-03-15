@@ -2,7 +2,7 @@ describe('add joke scenario', () => {
   beforeEach(() => {
     browser.get('http://localhost:3000/');
   });
-  xit('should create a new joke', async () => {
+  it('should create a new joke', async () => {
     browser.get('http://localhost:3000/#!/add-joke');
 
     const titleInput = await browser.findElement(by.css('#title'));

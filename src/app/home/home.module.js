@@ -20,7 +20,7 @@ function config($stateProvider) {
     controllerAs: 'vm',
     resolve: {
       jokes: ['JokesService', function(JokesService) {
-        return JokesService.getAll();
+        return JokesService.getAll().toPromise();
       }],
     },
   });
