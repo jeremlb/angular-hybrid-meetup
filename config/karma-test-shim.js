@@ -1,7 +1,7 @@
 'use strict';
 
-import '../src/vendor';
-import '../src/app';
+import '../src/vendor.ts';
+import '../src/app-ng1';
 
 import 'angular-mocks';
 

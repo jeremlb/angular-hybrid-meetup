@@ -50,6 +50,12 @@
   dependencies:
     tslib "^1.7.1"
 
+"@angular/upgrade@5.2.7":
+  version "5.2.7"
+  resolved "https://artifactory.csq.fr:443/api/npm/npm/@angular/upgrade/-/upgrade-5.2.7.tgz?dl=https://registry.yarnpkg.com/@angular/upgrade/-/upgrade-5.2.7.tgz#b7ee1ee12f5052b95033b62d22e1889bccdf763b"
+  dependencies:
+    tslib "^1.7.1"
+
 "@fimbul/bifrost@^0.4.0":
   version "0.4.0"
   resolved "https://artifactory.csq.fr:443/api/npm/npm/@fimbul/bifrost/-/bifrost-0.4.0.tgz?dl=https://registry.yarnpkg.com/@fimbul/bifrost/-/bifrost-0.4.0.tgz#b6d852edc3bed8442967e750fa3ce88e17397e17"

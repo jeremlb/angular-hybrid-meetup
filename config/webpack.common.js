@@ -11,8 +11,9 @@ const extractLESS = new ExtractTextPlugin('[name].css');
 module.exports = {
   context: helpers.root('src/'),
   entry: {
-    main: './main.js',
-    vendor: './vendor.js',
+    main: './main.ts',
+    vendor: './vendor.ts',
+    polyfills: './polyfills.ts',
   },
   output: {
     path: helpers.root('dist'),
@@ -20,7 +21,7 @@ module.exports = {
   },
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
-      name: ['main', 'vendors']
+      name: ['main', 'polyfills', 'vendors']
     }),
     new HtmlWebpackPlugin({
       filename: helpers.root('./dist/index.html'),
