@@ -1,0 +1,22 @@
+<div class="joke">
+  <header class="joke-header">
+    <ul class="joke-list">
+      <li class="joke-list-item joke-list-item__badge">
+        {{ joke.category }}
+      </li>
+    </ul>
+  </header>
+  <h2 class="joke-title">{{ joke.title }}</h2>
+  <p class="joke-content">
+    <span ng-bind-html="joke.joke"></span>
+    <br>
+    <span class="joke-content-anwser" ng-if="joke.anwser"><i>Réponse :&nbsp;</i> {{ joke.anwser }}</span>
+  </p>
+  <div class="joke-footer">
+    <p class="joke-footer-author">
+      <span>Par</span>
+      <img class="joke-footer-author-avatar" ng-src="{{ joke.avatar_src }}" alt="{{ joke.user_name }}">
+      <span>{{ joke.username }}</span>
+    </p>
+  </div>
+</div>

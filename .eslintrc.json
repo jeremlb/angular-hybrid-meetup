@@ -1,0 +1,52 @@
+{
+  "plugins": [
+    "protractor"
+  ],
+  "extends": ["airbnb", "plugin:protractor/recommended", "angular"],
+  "rules": {
+    "max-statements": ["warn", 10, { "ignoreTopLevelFaunctions": true }],
+    "max-params": ["warn", 3],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "func-names": ["off"],
+    "no-param-reassign": ["error", { "props": false }],
+    "max-lines": ["warn", 300],
+    "no-underscore-dangle": ["warn"],
+    "import/no-extraneous-dependencies": ["warn"],
+    "no-use-before-define": ["error", { "functions": false }],
+    "comma-dangle": ["off"],
+    "prefer-rest-params": ["warn"],
+    "protractor/valid-locator-type": ["warn"]
+  },
+  "env": {
+    "jasmine": true
+  },
+  "overrides": {
+    "files": ["src/**/*.js", "src/**/*.spec.js"],
+    "rules": {
+      "max-statements": ["warn", 10, { "ignoreTopLevelFunctions": true }],
+      "max-params": ["warn", 3],
+      "max-depth": ["warn"],
+      "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+      "func-names": ["off"],
+      "guard-for-in": ["warn"],
+      "angular/controller-as": ["warn"],
+      "angular/controller-as-route": ["warn"],
+      "angular/document-service": ["warn"],
+      "angular/window-service": ["warn"],
+      "angular/no-private-call": ["warn"],
+      "max-lines": ["warn", 300],
+      "no-underscore-dangle": ["warn"],
+      "no-proto": ["warn"],
+      "max-len": ["warn"],
+      "vars-on-top": ["warn"],
+      "no-bitwise": ["warn"],
+      "no-param-reassign": ["warn"],
+      "no-shadow": ["warn"],
+      "no-return-assign": ["warn"],
+      "default-case": ["warn"]
+    }
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
